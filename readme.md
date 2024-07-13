@@ -8,12 +8,16 @@ Idle Android mobile phone as a bypass gateway, no need to buy a soft router to a
 2. Install clash or v2ray.
 3. After you turn it on, set the gateway of other devices to the current ip address of your mobile phone.
 
-![1.png](/img/1.png)
-![2.png](/img/2.png)
-![3.png](/img/3.png)
+
 
 
 ------
 
 This project is the realisation of   
 https://bulianglin.com/archives/android-gateway.html
+
+
+------
+![1.png](/img/1.png)
+![2.png](/img/2.png)
+![3.png](/img/3.png)
