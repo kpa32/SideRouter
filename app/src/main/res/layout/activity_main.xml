@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:id="@+id/main">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/label_root"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="root"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/value_root"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="是"
+            android:textSize="18sp"
+            android:padding="8dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/label_nic1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="网卡 tun0"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/value_nic1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="tun0"
+            android:textSize="18sp"
+            android:padding="8dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/label_nic2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="网卡 wlan0"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/value_nic2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="wlan0"
+            android:textSize="18sp"
+            android:padding="8dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/label_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="状态"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/value_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="转发中"
+            android:textSize="18sp"
+            android:padding="8dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/label_ex"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="兼容模式"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <CheckBox
+            android:id="@+id/value_checkbox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nat转换"
+            android:textSize="18sp"
+            android:padding="8dp" />
+    </TableRow>
+    <Button
+        android:id="@+id/btn_run"
+        android:text="开启旁路由"
+        android:padding="8dp"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btn_stop"
+        android:text="关闭旁路由"
+        android:padding="8dp"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/label_about"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="1.先打开vpn服务(例如clash v2ray)\n2.打开wifi\n3.开启旁路由\n4.设置第二台手机的网关为当前wlan0显示的ip地址"
+        android:textSize="18sp"
+        android:padding="8dp" />
+</TableLayout>
